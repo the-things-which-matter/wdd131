@@ -1,0 +1,141 @@
+
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2a4563;
+    color: white;
+    text-align: center;
+    
+   
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+header h1 span {
+    color: yellow;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    padding: 10px 0;
+    margin: 0;
+    margin-top: 50px;
+    background-color: #333;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: lightblue;
+}
+
+/* Main Content Layout */
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns: left and right */
+    grid-template-rows: auto auto; /* Two rows on the left */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.about-me {
+    grid-column: 1; /* First column */
+    grid-row: 1; /* First row */
+}
+
+.madagascar {
+    grid-column: 1; /* First column */
+    grid-row: 2; /* Second row */
+}
+
+.resources {
+    grid-column: 2; /* Second column */
+    grid-row: 1 / span 2; /* Span both rows */
+}
+
+/* Section and Aside Styling */
+.card, .resources {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card h2, .resources h2 {
+    text-align: center;
+    color: #2a4563;
+    background-color: yellow;
+    width: 100%;
+    padding: 0;
+    border-radius: 7px;
+}
+
+.card .content, .resources ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card .content img {
+                    width: 300px;
+                    height: 300x;
+}
+
+.card img, .resources ul li {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resources ul li a {
+    /*text-decoration: none;*/
+    color: #333;
+    transition: color 0.3s;
+}
+
+.resources ul li a:hover {
+    color:blue;
+}
+
+/* Footer */
+footer {
+    background-color: #2a4563;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
