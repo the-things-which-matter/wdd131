@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131</title>
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span>Brigham Iga</span></h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/.">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card about-me">
+            <h2>About Me</h2>
+            <div class="content">
+                <p>My name is Brigham Iga. I was born in Uganda which is commonly known as the pearl of Africa. I am a
+                    video editor and i love playing basketball in my free time. I am part of a loving family of good and
+                    caring parents and siblings </p>
+                <img src="images/iga 2.jpg" alt="My image">
+            </div>
+        </section>
+
+        <section class="card madagascar">
+            <h2>Uganda</h2>
+            <div class="content">
+                <img src="images/flag.jpg" alt="Uganda Flag">
+                <p>Uganda is known for it's famous river nile; it has the source of the Nile which has become a big
+                    tourist attraction to the country. it also has amazing animals and some of the sweetest fruits in
+                    the world in diverse flavours. Uganda us also know for its rich in diverse foods that are full of
+                    great nutrients that edify the body and its immunity.</p>
+            </div>
+        </section>
+
+        <aside class="resources">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="#">Dev.to Community</a></li>
+                <li><a href="#">Smashing Magazine</a></li>
+                <li><a href="#">CSS Tricks</a></li>
+                <li><a href="#">W3 Schools</a></li>
+                <li><a href="#">Udemy</a></li>
+                <li><a href="#">Image Placeholder</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> Brigham Iga, Uganda.</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script>
+        document.getElementById("currentyear").textContent = new Date().getFullYear();
+        document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
+    </script>
+</body>
+
+</html>
