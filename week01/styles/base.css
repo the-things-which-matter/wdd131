@@ -3,19 +3,19 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+   /* padding: 0;*/
 }
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #ffffff;
+    /*color: #333;*/
 }
 
 /* Header */
 header {
-    background-color: #2a4563;
+    background-color: #003366;
     color: white;
     text-align: center;
     
@@ -28,7 +28,7 @@ header h1 {
 }
 
 header h1 span {
-    color: yellow;
+    color: #ffcc00;
 }
 
 nav ul {
@@ -39,7 +39,7 @@ nav ul {
     padding: 10px 0;
     margin: 0;
     margin-top: 50px;
-    background-color: #333;
+    background-color: #00509e;
 }
 
 nav ul li a {
@@ -50,7 +50,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: lightblue;
+    color: #ffcc00;
 }
 
 /* Main Content Layout */
@@ -81,7 +81,7 @@ main {
 
 /* Section and Aside Styling */
 .card, .resources {
-    background-color: #fff;
+    background-color:#f8f9fa;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -89,8 +89,8 @@ main {
 
 .card h2, .resources h2 {
     text-align: center;
-    color: #2a4563;
-    background-color: yellow;
+    color: white;
+    background-color: #003366;
     width: 100%;
     padding: 0;
     border-radius: 7px;
@@ -119,17 +119,17 @@ main {
 
 .resources ul li a {
     /*text-decoration: none;*/
-    color: #333;
+    color: #00509e;
     transition: color 0.3s;
 }
 
 .resources ul li a:hover {
-    color:blue;
+    color:#ff5733;
 }
 
 /* Footer */
 footer {
-    background-color: #2a4563;
+    background-color: #003366;
     color: white;
     text-align: center;
     padding: 10px 0;
