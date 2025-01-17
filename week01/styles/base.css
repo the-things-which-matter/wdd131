@@ -1,9 +1,8 @@
-
 /* Global Styles */
 * {
     box-sizing: border-box;
     margin: 0;
-   /* padding: 0;*/
+    /* padding: 0;*/
 }
 
 body {
@@ -19,14 +18,14 @@ header {
     color: white;
     text-align: center;
 
-   
+
 }
 
 header h1 {
     margin-bottom: 10px;
     font-size: 1.8em;
 
-   
+
 }
 
 header h1 span {
@@ -58,8 +57,10 @@ nav ul li a:hover {
 /* Main Content Layout */
 main {
     display: grid;
-    grid-template-columns: 2fr 1fr; /* Two columns: left and right */
-    grid-template-rows: auto auto; /* Two rows on the left */
+    grid-template-columns: 2fr 1fr;
+    /* Two columns: left and right */
+    grid-template-rows: auto auto;
+    /* Two rows on the left */
     gap: 20px;
     max-width: 1200px;
     margin: 20px auto;
@@ -67,29 +68,37 @@ main {
 }
 
 .about-me {
-    grid-column: 1; /* First column */
-    grid-row: 1; /* First row */
+    grid-column: 1;
+    /* First column */
+    grid-row: 1;
+    /* First row */
 }
 
 .madagascar {
-    grid-column: 1; /* First column */
-    grid-row: 2; /* Second row */
+    grid-column: 1;
+    /* First column */
+    grid-row: 2;
+    /* Second row */
 }
 
 .resources {
-    grid-column: 2; /* Second column */
-    grid-row: 1 / span 2; /* Span both rows */
+    grid-column: 2;
+    /* Second column */
+    grid-row: 1 / span 2;
+    /* Span both rows */
 }
 
 /* Section and Aside Styling */
-.card, .resources {
-    background-color:#f8f9fa;
+.card,
+.resources {
+    background-color: #f8f9fa;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
 
-.card h2, .resources h2 {
+.card h2,
+.resources h2 {
     text-align: center;
     color: white;
     background-color: #003366;
@@ -98,18 +107,20 @@ main {
     border-radius: 7px;
 }
 
-.card .content, .resources ul {
+.card .content,
+.resources ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
 .card .content img {
-                    width: 300px;
-                    height: 300x;
+    width: 300px;
+    height: 300x;
 }
 
-.card img, .resources ul li {
+.card img,
+.resources ul li {
     margin-top: 10px;
     text-align: center;
 }
@@ -126,7 +137,7 @@ main {
 }
 
 .resources ul li a:hover {
-    color:#ff5733;
+    color: #ff5733;
 }
 
 /* Footer */
