@@ -1,4 +1,4 @@
-/* temples-large.css - Larger Screens */
+/* forr Larger Screens */
 @media (min-width: 768px) {
     header {
         text-align: left;
@@ -27,7 +27,7 @@
     }
 
     .gallery {
-        grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
+        grid-template-columns: repeat(3, 1fr); 
     }
 
     figure {
@@ -46,6 +46,6 @@
 
 @media (min-width: 1024px) {
     .gallery {
-        grid-template-columns: repeat(4, 1fr); /* 4 columns layout */
+        grid-template-columns: repeat(4, 1fr); 
     }
 }
