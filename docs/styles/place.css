@@ -21,11 +21,7 @@ header {
     font-size: 1.5em;
 }
 
-h2 {
-    background-color: #3498db;
-    text-align: center;
-}
-
+/* Hero image */
 .hero img {
     width: 100%;
     height: auto;
@@ -39,18 +35,16 @@ h2 {
     background-position: center;
 }
 
-
+/* Info Section */
 .info {
     display: flex;
     justify-content: space-between;
     margin: 20px;
-    margin-top: 250px;
-
-
+    gap: 20px; /* Adds spacing between columns */
 }
 
 .details {
-    width: 30%;
+    width: 48%; /* Adjust width to fit two sections side by side */
     background-color: var(--white);
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -72,8 +66,9 @@ h2 {
     text-align: left;
 }
 
+/* Weather Section */
 .weather {
-    margin-top: 20px;
+    width: 48%; /* Ensure weather section also takes up 48% width */
     padding: 20px;
     background-color: var(--white);
     display: inline-block;
@@ -101,8 +96,8 @@ footer {
         align-items: center;
     }
 
-    .details {
-        width: 80%;
+    .details, .weather {
+        width: 80%; /* Full width for smaller screens */
         margin-bottom: 20px;
     }
 
