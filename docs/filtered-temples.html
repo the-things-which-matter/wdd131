@@ -5,15 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temple Album</title>
-    <meta name="description"
-        content="Welcome to the Temple album page as part of my assignment for WDD 131 Dynamic Web Fundamentals. This page shows the sacred images of Temples. It is good to look at Temples as a reminder of our covenants and the sacredness they represent.">
+    <meta name="description" content="Welcome to the Temple album page as part of my assignment for WDD 131 Dynamic Web Fundamentals. This page shows the sacred images of Temples. It is good to look at Temples as a reminder of our covenants and the sacredness they represent.">
     <meta name="author" content="Brigham Iga">
+    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/filtered-temple.css">
-    <link rel="stylesheet" href="styles/temples-large.css">
+
+
+    <link rel="stylesheet" href="styles/temples-large.css"> 
+    <link rel="stylesheet" href="styles/filtered-temple.css"> 
+  
     <script src="scripts/filtered-temple.js" defer></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -33,7 +39,33 @@
 
     <main>
         <h2>Temples Gallery</h2>
-        <section class="gallery"></section>
+        <section class="gallery">
+           
+            <figure>
+                <picture>
+                    <source srcset="images/aba-nigeria-temple.webp" type="image/webp">
+                    <img src="images/aba-nigeria-temple.jpg" alt="Nigeria Temple" width="400" height="250">
+                </picture>
+            </figure>
+            <figure>
+                <picture>
+                    <source srcset="images/payson-utah-temple.webp" type="image/webp">
+                    <img src="images/payson-utah-temple.jpg" alt="Payson Utah Temple" width="400" height="250">
+                </picture>
+            </figure>
+            <figure>
+                <picture>
+                    <source srcset="images/manti-temple.webp" type="image/webp">
+                    <img src="images/manti-temple.jpg" alt="Manti Temple" width="400" height="250">
+                </picture>
+            </figure>
+            <figure>
+                <picture>
+                    <source srcset="images/yigo-guam-temple.webp" type="image/webp">
+                    <img src="images/yigo-guam-temple.jpg" alt="Yigo Guam Temple" width="400" height="250">
+                </picture>
+            </figure>
+        </section>
     </main>
 
     <footer>
