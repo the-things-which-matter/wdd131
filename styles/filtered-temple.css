@@ -9,16 +9,9 @@ nav ul li a:hover {
     background-color: #666;
 }
 
-figure img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 4 / 3; 
-}
-
 footer p {
     font-size: 0.9rem;
 }
-
 
 nav ul li a.active {
     background-color: #555;
