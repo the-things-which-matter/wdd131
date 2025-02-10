@@ -14,13 +14,13 @@ menuButton.addEventListener("click", () => {
 
 
 const temples = [
-    { templeName: "Aba Nigeria", location: "Aba, Nigeria", dedicated: "2005, August, 7", area: 11500, imageUrl: "docs/images/aba-nigeria.webp" },
-    { templeName: "Manti Utah", location: "Manti, Utah, United States", dedicated: "1888, May, 21", area: 74792, imageUrl: "docs/images/manti-utah-temple.webp" },
-    { templeName: "Payson Utah", location: "Payson, Utah, United States", dedicated: "2015, June, 7", area: 96630, imageUrl: "docs/images/payson-utah-temple.webp" },
-    { templeName: "Yigo Guam", location: "Yigo, Guam", dedicated: "2020, May, 2", area: 6861, imageUrl: "docs/images/yigo-guam-temple.webp" },
-    { templeName: "Salt Lake", location: "Salt Lake City, Utah, United States", dedicated: "1893, April, 6", area: 253015, imageUrl: "docs/images/salt-lake-temple.webp" },
-    { templeName: "Tokyo Japan", location: "Tokyo, Japan", dedicated: "1980, October, 27", area: 52900, imageUrl: "docs/images/tokyo-japan-temple.webp" },
-    { templeName: "Rome Italy", location: "Rome, Italy", dedicated: "2019, March, 10", area: 40793, imageUrl:  "docs/images/rome-italy-temple.webp" }
+    { templeName: "Aba Nigeria", location: "Aba, Nigeria", dedicated: "2005, August, 7", area: 11500, imageUrl: "images/aba-nigeria.webp" },
+    { templeName: "Manti Utah", location: "Manti, Utah, United States", dedicated: "1888, May, 21", area: 74792, imageUrl: "images/manti-utah-temple.webp" },
+    { templeName: "Payson Utah", location: "Payson, Utah, United States", dedicated: "2015, June, 7", area: 96630, imageUrl: "images/payson-utah-temple.webp" },
+    { templeName: "Yigo Guam", location: "Yigo, Guam", dedicated: "2020, May, 2", area: 6861, imageUrl: "images/yigo-guam-temple.webp" },
+    { templeName: "Salt Lake", location: "Salt Lake City, Utah, United States", dedicated: "1893, April, 6", area: 253015, imageUrl: "images/salt-lake-temple.webp" },
+    { templeName: "Tokyo Japan", location: "Tokyo, Japan", dedicated: "1980, October, 27", area: 52900, imageUrl: "images/tokyo-japan-temple.webp" },
+    { templeName: "Rome Italy", location: "Rome, Italy", dedicated: "2019, March, 10", area: 40793, imageUrl:  "images/rome-italy-temple.webp" }
 ];
 
 
