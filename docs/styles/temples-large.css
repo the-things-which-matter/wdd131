@@ -92,16 +92,16 @@ figure img {
     object-fit: cover;
 }
 
+figure img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9; 
+}
+
 figcaption {
     font-size: 1rem;
     margin-top: 0.5rem;
     color: #333;
-}
-
-figure img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 9;
 }
 
 
